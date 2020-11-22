@@ -13,6 +13,6 @@ public class DuwitRupiah {
         String symbol = Currency.getInstance(local).getSymbol(local);
         cursIndonesian.setPositivePrefix(symbol);
 
-        return cursIndonesian.format(Double.parseDouble(nominal)).toString();
+        return cursIndonesian.format(Double.parseDouble(nominal));
     }
 }
