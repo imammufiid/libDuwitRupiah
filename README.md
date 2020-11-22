@@ -9,7 +9,6 @@
     <a><img src="https://img.shields.io/badge/Koltin-Suport-green?logo=kotlin&style=flat"></a>
     <a href="https://github.com/imufiid"><img src="https://img.shields.io/github/followers/imufiid?label=follow&style=social"></a>
     <br>
-    <p>Simple way to customize <b>DialogFragment</b>.</p>
 </p>
 
 ---
