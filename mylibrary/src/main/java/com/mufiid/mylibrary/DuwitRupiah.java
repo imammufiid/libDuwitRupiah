@@ -7,7 +7,7 @@ import java.util.Locale;
 
 public class DuwitRupiah {
 
-    protected String generate(String nominal) {
+    public String generate(String nominal) {
         Locale local = new Locale("id", "ID");
         DecimalFormat cursIndonesian = (DecimalFormat) NumberFormat.getCurrencyInstance(local);
         String symbol = Currency.getInstance(local).getSymbol(local);
